@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'pokemonsolid';
+    src: url('pokemonsolid.ttf') format('truetype');
+    
+}
+
+body {
+    background-image: url(fondo.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    font-family:"pokemonsolid",sans-serif;
+    margin-bottom: 0%;
+    color: rgba(255, 255, 0, 0.925);
+    
+}
+
+div {
+    position: absolute;
+   justify-content:center;
+   margin-left: 12%;
+
+}
+
+#pokemon-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    filter: brightness(0);
+
+}
+
+#pokemon-name {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: none;
+    font-size: 25px;
+    font-family:"pokemonsolid",sans-serif;
+    color:rgba(255, 0, 0, 0.863);
+
+}
