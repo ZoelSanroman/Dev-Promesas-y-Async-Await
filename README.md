@@ -3,7 +3,9 @@ ya que la pagina advertia que los pokemons de gneraciones posteriores podrian fa
 del pokemon a todo color y su nombre abajo. La idea es imitar el mitico salto a publicidad de la serie de: "¿Who's that pokemon?".
 
 -Si la conexion con la api falla, saltara un mensaje de error por consola.
+
 -Si no se puede optener un pokemon al azar por el motivo que sea, pero la conexion funciona bien, saltara un mensaje de error por consola especificando el porque.
+
 -Si el click en la imagen falla por cualquier motivo, saldra un mensaje de error por consola expicificando el motivo.
 
 Enlace: https://zoelsanroman.github.io/Dev-Promesas-y-Async-Await/Pagina.html
